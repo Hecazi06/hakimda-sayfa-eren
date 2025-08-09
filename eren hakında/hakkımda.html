@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Hakkında - Fzt. Eren Baran</title>
+<style>
+  @keyframes gradientBG {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+  }
+
+  body {
+    margin: 0;
+    min-height: 100vh;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(-45deg, #ff6ec4, #7873f5, #4ade80, #facc15);
+    background-size: 400% 400%;
+    animation: gradientBG 15s ease infinite;
+    color: #222;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .container {
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 20px;
+    padding: 40px 50px;
+    max-width: 900px;
+    box-shadow: 0 0 40px rgba(0,0,0,0.2);
+    margin-bottom: 100px; /* Footer için boşluk */
+  }
+
+  h1 {
+    color: #4a3aff;
+    margin-bottom: 30px;
+    font-weight: 700;
+    text-align: center;
+  }
+
+  .photos {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-bottom: 30px;
+    flex-wrap: wrap;
+  }
+
+  .photos img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 5px solid #4a3aff;
+    box-shadow: 0 4px 15px rgba(74, 58, 255, 0.5);
+  }
+
+  .content p {
+    font-size: 17px;
+    line-height: 1.7;
+    color: #333;
+    margin-bottom: 15px;
+  }
+
+  .content p strong {
+    color: #4a3aff;
+  }
+
+  .contact {
+    margin-top: 20px;
+    font-size: 16px;
+    color: #555;
+  }
+
+  .contact span {
+    display: block;
+    margin-bottom: 8px;
+  }
+
+  footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background: rgba(0,0,0,0.6);
+    color: #eee;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 16px;
+    user-select: none;
+  }
+
+  @media (max-width: 600px) {
+    .photos {
+      flex-direction: column;
+      gap: 20px;
+    }
+    .photos img {
+      width: 150px;
+      height: 150px;
+    }
+  }
+</style>
+</head>
+<body>
+  <div class="container">
+    <h1>Fzt. Eren Baran</h1>
+    <div class="photos">
+      <img src="eren1.jpg" />
+      <img src="eren2.jpg" />
+    </div>
+    <div class="content">
+      <p><strong>Fzt. Eren BARAN</strong>, 2002’de Malatya’nın Hekimhan ilçesinde doğmuş, alanında uzman bir fizyoterapist olarak sağlık sektöründe aktif şekilde hizmet veren, aynı zamanda aktif oyuncu ve siyasi olarak başkanlık yapan bir profesyonel ve sosyal girişimcidir. Recep Tayyip Erdoğan Üniversitesi Fizyoterapi ve Rehabilitasyon Bölümü ile Erzurum Atatürk Üniversitesi Tıbbi Sekreterlik Bölümü mezunudur.</p>
+      
+      <p>Fizyoterapi alanında; ortopedik rehabilitasyon, nörolojik rehabilitasyon, spor yaralanmaları rehabilitasyonu, manuel terapi, postür analizi ve egzersiz programlama gibi uygulamalarda uzmandır. Bunun yanı sıra aşağıdaki masaj tekniklerinde profesyonel düzeyde çalışmaktadır:</p>
+      
+      <p><strong>Klasik masaj, Thai masajı, Aromaterapi masajı, Refleksoloji, Lenf drenaj masajı, Sporcu masajı, Baş-boyun-omuz masajı, Sıcak taş masajı, Shiatsu masajı</strong></p>
+      
+      <p>Ayrıca kuru iğne tedavisi ve manuel terapi uygulamalarında deneyim sahibidir.</p>
+      
+      <p>Sağlık alanındaki çalışmalarının yanı sıra, sosyal medya reklamcılığı alanında profesyonel hizmet vermekte, reklam filmlerinde aktif oyuncu olarak yer almakta ve topluluk önünde etkili iletişim becerileriyle tanınmaktadır. Siyasi arenada ise, bir siyasi partinin gençlik kolları başkanlığı görevini yürütmektedir.</p>
+      
+      <p>Aynı zamanda arıcılıkla ilgilenmekte, doğa ve üretim odaklı projeler geliştirmektedir. İyi derecede İngilizce, Kürtçe ve Almanca bilmektedir.</p>
+      
+      <div class="contact">
+        <span>📧 İletişim: <a href="mailto:erenbarran@gmail.com">erenbarran@gmail.com</a></span>
+        <span>📷 Instagram: <a href="https://instagram.com/erenbarra" target="_blank">@erenbarra</a></span>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    Yazılım Muhammed Hecazi tarafından yapılmıştır.
+  </footer>
+</body>
+</html>
